@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(39,45,59,255);
+}
+main {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(39,45,59,255);
+    color: white;
+    margin: auto;
+}
+div {
+    background-color: rgba(48,58,70,255);
+    width: calc(100% / 6);
+    padding-bottom: 50px;
+}
+img {
+    height: 200px;
+    margin: 1rem;
+}
+h1 {
+    font-size: 1.5rem;
+    background-color: rgba(48,58,70,255);
+}
+h3,h4 {
+    background-color: rgba(48,58,70,255);
+}
+header {
+    background-color: rgba(48,58,70,255);
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logo {
+    height: 60px;
+}
